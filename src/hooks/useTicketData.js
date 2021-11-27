@@ -65,7 +65,6 @@ export function useTicketData() {
     setFilteredData(
       mutateData(rawData, currentFilters) 
     )
-
   }, [currentFilters?.status, currentFilters?.type, currentFilters?.priority, rawData])
 
   
@@ -88,10 +87,7 @@ export function useTicketData() {
       [e]: value,
     }))
   }
-  
 
-  console.log(currentFilters)
-  
   return {
     loading,
     rawData,
