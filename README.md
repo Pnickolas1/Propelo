@@ -1,9 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## steps to launch app:
 
-## Available Scripts
+1. yarn install
+2. yarn start
 
-In the project directory, you can run:
-
+## In the project directory, you can run:
 ### `yarn start`
 
 Runs the app in the development mode.\
@@ -26,3 +26,5 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
